@@ -34,7 +34,7 @@ We centered the SNPs inside windows of 200 bps as in the following example:
                              |
    		   Position of the SNP
 ```
-In this example, this window contains a SNP diagnostic for the ***Triticum*** lineage. The diagnostic SNP is "A"
+In this example, this window contains a SNP diagnostic for the ***Triticum*** lineage. The diagnostic SNP is "A".  
 The positional information (Contig01:42936) as well as the assembly used as reference (AG006) is shown in the header.
 
 [The file containing the windows in fasta format can be found here](/data/multiple_hosts.SNPs.FstFiltered.fasta)
@@ -50,5 +50,22 @@ Oryza   | II             | 3,008
 Oryza   | III            | 2,815
 Oryza   | IV             | 2,731
 
-[The repertoire file can be found here](/data/clonal_lineages.SNPs.tsv)
+[The repertoire file can be found here](/data/clonal_lineages.SNPs.tsv)  
 [The file containing the windows in fasta format can be found here](/data/clonal_lineages.SNPs.fasta)
+
+## Mating type classification
+We retrieved nucleotide sequences from two distinct regions specific to the idiomorphs [MAT1-1-1 (Alpha Box)](Mat1-1-1_AlphaBox.aln) and [MAT1-2-1 (HMG group)](/data/Mat1-2-1_HMG.aln) and generated a multiple aligned sequence.
+
+As a result, [we provide here a file for the conserved sequences beloging to either of the mating types](/data/Mating_types.fasta). Every single position along these sequences can be selected as diagnostic allele.
+
+
+## Presence and absence of effector genes and their allele type
+### AVR1-CO39
+Similarly, we made a [MSA from public sequences of the gene AVR1-CO39](/data/AVR1-CO39.aln). [Here, we provide a file for the conserved sequence of the effector gene AVR1-CO39](/data/AVR1-CO39.fasta). Every single position along these sequences can be selected as diagnostic allele.
+
+### AVR-Pik
+Finally, we designed 5 probes to be used as diagnostic for the allelic variants of the effector gene *AVR-Pik* (variants A,D,F,H,I,J).
+Similarly, we created a [MSA using sequences of different vairants of the gene *AVR-Pik*](/data/AVR-Pik_alleles.aln). [Here, we provide a fasta file with the diagnostic SNPs and windows](/data/AVR-Pik.SNPs.fasta)
+
+
+
