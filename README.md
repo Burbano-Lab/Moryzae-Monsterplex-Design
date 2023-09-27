@@ -24,16 +24,17 @@ Setaria  | 605
 Triticum | 500
 Zea      | 9073
 
-The repertoire of the candidate SNPs can be found in [this file](/data/multiple_hosts.SNPs.FstFiltered.tsv)
+[The repertoire of the candidate SNPs can be found here](/data/multiple_hosts.SNPs.FstFiltered.tsv)
 
 We centered the SNPs inside windows of 200 bps as in the following example:
 
 ```bash
->Triticum-A-Contig01-42936-AG006
+>Eleusine-A-Contig01-193667-AG006
 [...100-bases...CGCGGGAATT...N...CCAAATACCC...100-bases]
                              |
    		   Position of the SNP
 ```
-In this example, this window contains a SNP diagnostic for the Triticum lineage. The diagnostic SNP is "A"
+In this example, this window contains a SNP diagnostic for the ***Triticum*** lineage. The diagnostic SNP is "A"
 The positional information (Contig01:42936) as well as the assembly used as reference (AG006) is shown in the header.
 
+[The file containing the windows in fasta format can be found here](/data/multiple_hosts.SNPs.FstFiltered.fasta)
