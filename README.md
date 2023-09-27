@@ -15,14 +15,14 @@ We have used three major criteria to select the SNPs:
 
 We generated a repertoire of 63,122 candidate SNPs distributed as following:
 
-Host     | Number of SNPs
+Host     | Number of Disgnostic SNPs
 -------- | --------------
-Eleusine | 1344
+Eleusine | 1,344
 Lolium   | 623
 Oryza    | 141
 Setaria  | 605
 Triticum | 500
-Zea      | 9073
+Zea      | 9,073
 
 [The repertoire of the candidate SNPs can be found here](/data/multiple_hosts.SNPs.FstFiltered.tsv)
 
@@ -38,3 +38,17 @@ In this example, this window contains a SNP diagnostic for the ***Triticum*** li
 The positional information (Contig01:42936) as well as the assembly used as reference (AG006) is shown in the header.
 
 [The file containing the windows in fasta format can be found here](/data/multiple_hosts.SNPs.FstFiltered.fasta)
+
+
+## Clonal lineages classification
+Similarly, here we provide the files for the identification of the following *M. oryzae* clonal lineages:
+
+Host    | Clonal lineage | Numer of Diagnostic SNPs
+------- | -------------- | -------------
+Tritcum | B71            | 2,392 
+Oryza   | II             | 3,008
+Oryza   | III            | 2,815
+Oryza   | IV             | 2,731
+
+[The repertoire file can be found here](/data/clonal_lineages.SNPs.tsv)
+[The file containing the windows in fasta format can be found here](/data/clonal_lineages.SNPs.fasta)
