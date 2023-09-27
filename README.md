@@ -28,7 +28,7 @@ Zea      | 9,073
 
 We centered the SNPs inside windows of 200 bps as in the following example:
 
-```bash
+```
 >Eleusine-A-Contig01-193667-AG006
 [...100-bases...CGCGGGAATT...N...CCAAATACCC...100-bases]
                              |
@@ -64,8 +64,13 @@ As a result, [we provide here a file for the conserved sequences beloging to eit
 Similarly, we made a [MSA from public sequences of the gene AVR1-CO39](/data/AVR1-CO39.aln). [Here, we provide a file for the conserved sequence of the effector gene AVR1-CO39](/data/AVR1-CO39.fasta). Every single position along these sequences can be selected as diagnostic allele.
 
 ### AVR-Pik
-Finally, we designed 5 probes to be used as diagnostic for the allelic variants of the effector gene *AVR-Pik* (variants A,D,F,H,I,J).
-Similarly, we created a [MSA using sequences of different vairants of the gene *AVR-Pik*](/data/AVR-Pik_alleles.aln). [Here, we provide a fasta file with the diagnostic SNPs and windows](/data/AVR-Pik.SNPs.fasta)
+Finally, we designed 5 probes to be used as diagnostic for the allelic variants of the effector gene *AVR-Pik* (variants A,D,F,H,I,J). Similarly, we created a [MSA using sequences of different vairants of the gene *AVR-Pik*](/data/AVR-Pik_alleles.aln).  
+[Here, we provide a fasta file with the diagnostic SNPs and windows](/data/AVR-Pik.SNPs.fasta)
 
-
-
+```
+>Avr-Pik[A -> A|F|H] / [C -> D|I|J]
+[...100-bases...CTTTTTCGAC...N...ACGCTGATAT...100-bases]
+                             |
+		   Position of the SNP
+```
+In this example, if the diagnostic SNP is **A**, then the possible AVR-Pik alleles are *A* or *F* or *H*. Conversely, if the diagnostic SNP is **C**, then the possible AVR-Pik alleles are *D* or *I* or *J*
