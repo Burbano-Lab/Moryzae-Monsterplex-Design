@@ -43,12 +43,13 @@ The positional information (Contig01:42936) as well as the assembly used as refe
 ## Clonal lineages classification
 Similarly, here we provide the files for the identification of the following *M. oryzae* clonal lineages:
 
-Host    | Clonal lineage | Numer of Diagnostic SNPs
-------- | -------------- | -------------
-Tritcum | B71            | 2,392 
-Oryza   | II             | 3,008
-Oryza   | III            | 2,815
-Oryza   | IV             | 2,731
+Host     | Clonal lineage        | Numer of Diagnostic SNPs
+-------- | --------------------- | -------------
+Triticum | B71                   | 2,392 
+Triticum | B71-Bangladesh/Zambia | 78
+Oryza    | II                    | 3,008
+Oryza    | III                   | 2,815
+Oryza    | IV                    | 2,731
 
 [The repertoire file can be found here](/data/clonal_lineages.SNPs.tsv)  
 [The file containing the windows in fasta format can be found here](/data/clonal_lineages.SNPs.fasta)
